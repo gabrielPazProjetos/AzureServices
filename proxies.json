@@ -1,0 +1,10 @@
+{
+  "proxies": {
+    "productsApi": {
+      "matchCondition": {
+        "route": "/api/{*path}"
+      },
+      "backendUri": "https://localhost:7071/{path}"
+    }
+  }
+}
